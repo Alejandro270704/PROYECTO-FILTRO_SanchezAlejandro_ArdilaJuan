@@ -4,23 +4,29 @@ body {
     padding: 0;
     background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-  
-
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    
 }
-
+.caja {
+    
+    text-align: center;
+    
+}
 .logo img {
 
-    width: 10%;
-    height: 10%;
+    width: 80%;
+    
+   
 
 }
 
 .logo {
 
-    display: flex;
-    margin-left: 48vw;
-    margin-top: 40vh;
+    position: absolute;
+    top: 40%;
+    left: 45%;
     opacity: 0;
     animation: loguito 3s 2;
 
@@ -28,6 +34,32 @@ body {
 
 
 
+
+.box-login{
+    border-radius: 3vw;
+    background-color: white;
+    width: 44vw;
+    height: 35vw;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    opacity: 0;
+    animation: aparecer 1s forwards  ;
+    animation-delay: 5s;
+    
+}
+#titulo{
+    font-size: 2em;
+    margin-top: -1vw;
+    margin-left: 2vw;
+   
+}
+.box-login img{
+    padding: 1.50vw;
+    width: 5vw;
+    
+    
+}
 @keyframes loguito {
     0% {
         opacity: 0;
@@ -47,21 +79,9 @@ body {
 
     
 }
-.box-login{
-    border-radius: 3vw;
-    background-color: white;
-    width: 44vw;
-    height: 35vw;
-    display: flex;
-    margin-left: 30vw;
-    margin-top: -35vh;
-    
-    
-}
-.box-login img{
-    width: 10vw;
-    height: 4vw;
-    display: flex;
-    margin-left: 17vw;
-    
+@keyframes aparecer{
+   
+    100%{
+        opacity: 1;
+    }
 }
