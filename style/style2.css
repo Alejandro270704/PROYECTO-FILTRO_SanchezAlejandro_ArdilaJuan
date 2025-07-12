@@ -14,8 +14,23 @@ body{ background-color: black;
     background-position: center center;
     height: 100vh;
     position: relative;
-    animation: aparecer2 5s forwards;
+    animation: cambiarfondo 2s forwards;
+    animation-delay: 2s;
+
 }
+@keyframes cambiarfondo{
+    0%{
+        background-image: url(../img/fondo.png);
+        background-color: black;
+    }
+    100%{
+        
+        background-color: white;
+        background-image: none;
+    }
+
+}
+
 .bienvenida{
     border-radius: 4em;
     background-color: white;
@@ -24,32 +39,25 @@ body{ background-color: black;
     position: absolute;
     top: 20%;
     left: 23%;
-    opacity: 0;
-    animation: aparecer 1s forwards  ;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: aparecer 1s forwards ;
+    animation: aparecer 3s forwards;
+   
 }
 @keyframes aparecer{
     0% {
         opacity: 0;
     }
-    50%{opacity: 1;}
-    100%{
+   
+    50%{
         opacity: 1;
     }
+    100%{opacity: 0;}
 }
-@keyframes aparecer2{
-    0% {
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        background-color: white;
-        background-image: none;
-    }
-}
+
+
 .bienvenida img{
     padding: 3%;
     
@@ -73,4 +81,14 @@ body{ background-color: black;
 #text2{ font-family: letra1;
     font-size: 1.5em;
     margin: 0;
+}
+.menu{
+   
+    animation: aparecer3 1s forwards;
+    animation-delay: 9s;
+}
+@keyframes aparecer3{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+
 }
