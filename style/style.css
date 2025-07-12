@@ -15,7 +15,6 @@ body {
     background-position: center center;
     height: 100vh;
     position: relative;
-    
 }
 .caja {
     
@@ -37,7 +36,6 @@ body {
     left: 45%;
     opacity: 0;
     animation: loguito 3s 2;
-
 }
 
 

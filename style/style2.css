@@ -28,6 +28,7 @@ body{ background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: aparecer;
 }
 @keyframes aparecer{
     0% {
@@ -45,6 +46,25 @@ body{ background-color: black;
 #titulo{
     font-size: 2.5em;
     font-family: letra1;
-  
-}
 
+    
+}
+#pedro {
+    width: 11%;
+    height: auto;
+    margin-top: -3em;
+}
+#text1{
+    font-family: letra1;
+    font-size: 2.5em;
+}
+#text2{ font-family: letra1;
+    font-size: 1.5em;
+    margin: 0;
+}
+@keyframes aparacer {
+    100% {opacity: 1;}
+    50%{opacity: 1;}
+    0%{opacity: 0;}
+    
+}
