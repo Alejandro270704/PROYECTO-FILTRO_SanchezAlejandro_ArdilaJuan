@@ -36,28 +36,30 @@ body {
 
 
 .box-login{
-    border-radius: 3vw;
+    border-radius: 4em;
     background-color: white;
-    width: 44vw;
-    height: 35vw;
+    width: 44%;
+    height: 70%;
     position: absolute;
     top: 20%;
     left: 30%;
     opacity: 0;
     animation: aparecer 1s forwards  ;
     animation-delay: 5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 #titulo{
     font-size: 2em;
-    margin-top: -1vw;
-    margin-left: 2vw;
+    margin-top: -0.5em;
    
 }
 .box-login img{
-    padding: 1.50vw;
+    padding: 2%;
     width: 5vw;
-    
     
 }
 @keyframes loguito {
@@ -80,8 +82,65 @@ body {
     
 }
 @keyframes aparecer{
-   
+    0% {
+        opacity: 0;
+    }
     100%{
         opacity: 1;
     }
+}
+#usuario{
+    font-size: 1.5em;
+    align-self: flex-start;
+    margin-left: 15%;
+    
+    
+}
+.box1{
+    border-radius: 2em;
+    border: 2px solid black;
+    background-color: white;
+    width: 70%;
+    height: 6%;
+    margin-top: -2.5%;
+}
+#contra{
+    font-size: 1.5em;
+    align-self: flex-start;
+    margin-left: 15%;
+    
+   
+}
+.box2{
+    border-radius: 2em;
+    border: 2px solid black;
+    background-color: white;
+    width: 70%;
+    height: 6%;
+    margin-top: -2.5%;
+    
+    
+}
+#text1{
+    margin-top: -1.5%;
+}
+.box3{
+    border-radius: 2em;
+    width: 32%;
+    height: 6%;
+    background-color: #eb610c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 1.5em;
+    
+}   
+.box3 a{
+    text-decoration: none;
+    color: white;
+}
+#text2{
+    font-size: 0.9em;
 }
