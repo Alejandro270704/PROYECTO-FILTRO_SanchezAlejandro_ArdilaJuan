@@ -1,0 +1,51 @@
+
+.cabeza img{
+    width: 2rem;
+    height: 2rem;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.añadir{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.actualizar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.borrar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.report{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ayuda{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cerrar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
