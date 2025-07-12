@@ -1,3 +1,11 @@
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
 body {
     background-color: black;
     margin: 0;
@@ -36,7 +44,7 @@ body {
 
 
 .box-login{
-    border-radius: 4em;
+    border-radius: 6em;
     background-color: white;
     width: 44%;
     height: 70%;
@@ -55,7 +63,7 @@ body {
 #titulo{
     font-size: 2em;
     margin-top: -0.5em;
-   
+   font-family: letra1;
 }
 .box-login img{
     padding: 2%;
@@ -93,54 +101,61 @@ body {
     font-size: 1.5em;
     align-self: flex-start;
     margin-left: 15%;
-    
+    font-family: letra2;
     
 }
 .box1{
-    border-radius: 2em;
-    border: 2px solid black;
-    background-color: white;
-    width: 70%;
-    height: 6%;
-    margin-top: -2.5%;
+    align-self: flex-start;
+    margin-left: 15%;
+    margin-top: -2%;
 }
 #contra{
     font-size: 1.5em;
     align-self: flex-start;
     margin-left: 15%;
-    
+    font-family: letra2;
    
 }
 .box2{
-    border-radius: 2em;
-    border: 2px solid black;
-    background-color: white;
-    width: 70%;
-    height: 6%;
-    margin-top: -2.5%;
-    
+    align-self: flex-start;
+    margin-left: 15%;
+    margin-top: -2%;
     
 }
 #text1{
     margin-top: -1.5%;
+    font-family: letra2;
 }
 .box3{
     border-radius: 2em;
     width: 32%;
     height: 6%;
-    background-color: #eb610c;
+    background-color: #FF6F2C;
     color: white;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 1.5em;
+
     
 }   
 .box3 a{
     text-decoration: none;
     color: white;
+    margin-top: 1%;
 }
 #text2{
     font-size: 0.9em;
+    font-family: letra2;
+}
+
+input{
+    margin: 0;
+    width: 250%;
+    height: 150%;
+    border-radius: 80em;
+    padding-left: 1em;
+    font-size: 1em;
+
 }

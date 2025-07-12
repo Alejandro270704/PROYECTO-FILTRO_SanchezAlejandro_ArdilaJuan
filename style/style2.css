@@ -1,0 +1,50 @@
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+body{ background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.bienvenida{
+    border-radius: 4em;
+    background-color: white;
+    width: 55%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    opacity: 0;
+    animation: aparecer 1s forwards  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.bienvenida img{
+    padding: 3%;
+    
+    
+}
+#titulo{
+    font-size: 2.5em;
+    font-family: letra1;
+  
+}
+
