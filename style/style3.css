@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+    }
+.cabeza img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.cabeza{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    font-family: letra2;
+
+    
+}
+.añadir{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.actualizar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.borrar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.report{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ayuda{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cerrar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -3rem;
+    gap: 1rem;
+}
+#rueda,#noti,#pp{
+    cursor: pointer;
+}
+.linea{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;
+   
+    
+}
+.titulo{
+    font-family: letra1;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+    
+}
+.contenido{
+    font-family: letra2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: -2.5em;
+    
+}
+.contenido input{
+    border-radius: 2em;
+    width: 70%;
+    height: 20px;
+
+
+}
+.confirmar a{
+    border: 2px solid #FF6F2C;;
+    background-color: #FF6F2C;;
+    border-radius: 2em;
+    width: 5%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1em;
+    justify-content: center;
+    
+
+}
+
+
+  
