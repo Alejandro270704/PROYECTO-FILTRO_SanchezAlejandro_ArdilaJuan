@@ -225,7 +225,7 @@ body{ background-color: black;
     display: flex;
     position: absolute;
     left: 1235px;
-    top: 0.3em;
+    top: 0.4em;
     height: 23px;
 }
 #sal1 {
@@ -246,4 +246,69 @@ body{ background-color: black;
     width: 1400px;
     height: auto;
     top: 100%;
+}
+
+.txts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -635px;  
+}
+#titulo{
+    font-weight: bold;
+}
+#iN { 
+    position: absolute;
+    top: 180px;    
+    left: 85px;    
+    font-weight: bold;
+}
+#dE {
+    position: absolute;
+    top: 180px;
+    left: 310px;
+    font-weight: bold;
+}
+#cA {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    font-weight: bold;
+}
+#fI {
+    position: absolute;
+    top: 180px;
+    left: 620px;
+    font-weight: bold;
+}
+#fT {
+    position: absolute;
+    top: 180px;
+    left: 777px;
+    font-weight: bold;
+}
+#fO {
+    position: absolute;
+    top: 180px;
+    left: 973px;
+    font-weight: bold;
+}
+#fR { 
+    position: absolute;
+    top: 180px;
+    left: 1073px;
+    font-weight: bold;
+}
+#cU { 
+    position: absolute;
+    top: 180px;
+    left: 1190px;
+    font-weight: bold;
+}
+#aR { 
+    position: absolute;
+    top: 180px;
+    left: 1350px;
+    font-weight: bold;
 }
