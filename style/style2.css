@@ -312,3 +312,9 @@ body{ background-color: black;
     left: 1350px;
     font-weight: bold;
 }
+.grupo1 {
+    display: block;
+    margin: 38px auto 0% 1450px;
+    top: 12px;
+    position: relative;
+}
