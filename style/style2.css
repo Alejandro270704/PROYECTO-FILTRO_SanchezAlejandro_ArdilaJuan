@@ -92,3 +92,11 @@ body{ background-color: black;
     100%{opacity: 1;}
 
 }
+.separador {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    border-top: 2.5px solid rgb(114, 114, 114);
+}
