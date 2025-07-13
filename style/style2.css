@@ -92,6 +92,21 @@ body{ background-color: black;
     100%{opacity: 1;}
 
 }
+.barraS {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    position: relative; 
+    top: 0;
+    left: 0;
+  }
+  
+  .barraS button {
+    margin: 0 10px;
+    height: 25px;
+    font-size: 1.3em;
+  }
 .separador {
     position: absolute;
     top: 5%;
@@ -106,51 +121,82 @@ body{ background-color: black;
     position: absolute;
     width: 100%;
     height: 2.5em;
-    top: 0.0em; 
+    top: 0.5em; 
 }
 .menuCentro img {
     height: 1.5em;
 }
 #añadir {
-    color: #000000;
     display: flex;
     position: absolute;
     right: 162.5vh;
-    margin-top: 0.15em;
+    margin-top: 0.3em;
     font-size: 1.3em;
 }
 .añadir1 {
     display: flex;
     position: absolute;
     left: 163px;
-    top: 0.15em;
+    top: 0.3em;
     height: 25px;
 }
 .ref {
     display: flex;
     position: absolute;
     left: 330px;
-    top: 0.15em;
+    top: 0.3em;
     height: 25px;
+    height: 23px;
 }
 #ref1 {
     color: #000000;
     display: flex;
     position: absolute;
     right: 138vh;
-    margin-top: 0.15em;
+    margin-top: 0.3em;
     font-size: 1.3em;
 }
 .eli {
     display: flex;
     position: absolute;
     left: 504px;
-    top: -0.4em;
+    top: 0.3em;
+    font-size: 0.9em;
+    height: 23px;
 }
 #eli1 {
     display: flex;
     position: absolute;
-    right: 117vh;
-    margin-top: 0.15em;
+    right: 118vh;
+    margin-top: 0.3em;
     font-size: 1.3em;
+}
+.rep {
+    display: flex;
+    position: absolute;
+    left: 922px;
+    top: 0.3em;
+    height: 27px;
+}
+#rep1 {
+    display: flex;
+    position: absolute;
+    margin-top: 0.3em;
+    font-size: 1.3em;
+    right: 63vh;
+}
+.ayu {
+    display: flex;
+    position: absolute;
+    left: 1115px;
+    top: 0.3em;
+    height: 27px;
+    
+}
+#ayu1 {;
+    display: flex;
+    position: absolute;
+    margin-top: 0.3em;
+    font-size: 1.3em;
+    right: 41vh;
 }
