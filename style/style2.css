@@ -200,3 +200,50 @@ body{ background-color: black;
     font-size: 1.3em;
     right: 41vh;
 }
+.der {
+    display: flex;
+    position: absolute;
+    left: 1489px;
+    top: 0.3em;
+}
+.der img {
+    height: 1.9em;
+}
+.noti {
+    display: flex;
+    position: absolute;
+    left: 1465px;
+    top: 0.7em;
+}
+.set {
+    display: flex;
+    position: absolute;
+    left: 1440px;
+    top: 0.7em;
+}
+.sal {
+    display: flex;
+    position: absolute;
+    left: 1235px;
+    top: 0.3em;
+    height: 23px;
+}
+#sal1 {
+    display: flex;
+    position: absolute;
+    margin-top: 0.3em;
+    font-size: 1.3em;
+    margin-left: 161vh;
+}
+.grupos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 220px;
+    padding-right: 55px;
+}
+.grupo img {
+    width: 1400px;
+    height: auto;
+    top: 100%;
+}
