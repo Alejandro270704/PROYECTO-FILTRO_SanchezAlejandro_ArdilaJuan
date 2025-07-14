@@ -70,8 +70,46 @@
     width: 100%;
     border-top: 2px solid black;
 }
+.titulo{
+    font-family: letra1;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+    
+}
 .linea{
     display: flex;
     width: 100%;
     border-top: 2px solid black;  
+}
+.content{
+    font-family: letra2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: -2.em;
+    
+}
+.content input{
+    border-radius: 2em;
+    width: 85%;
+    height: 65px;
+
+
+}
+.ok a{
+    border: 2px solid #FF6F2C;;
+    background-color: #FF6F2C;;
+    border-radius: 2em;
+    width: 5%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1em;
+    justify-content: center;
+
 }
