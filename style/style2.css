@@ -66,7 +66,7 @@ body{ background-color: black;
 #titulo{
     font-size: 2.5em;
     font-family: letra1;
-
+    
     
 }
 #pedro {
@@ -78,9 +78,12 @@ body{ background-color: black;
     font-family: letra1;
     font-size: 2.5em;
 }
-#text2{ font-family: letra1;
+#text2{ 
+    font-family: letra1;
     font-size: 1.5em;
-    margin: 0;
+    margin-top: -1em;
+    
+    
 }
 .menu{
    
@@ -142,10 +145,12 @@ body{ background-color: black;
     align-items: center;
     cursor: pointer;
 }
-.report{
+.report a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .ayuda{
     display: flex;
@@ -171,7 +176,7 @@ body{ background-color: black;
     display: flex;
     width: 100%;
     border-top: 2px solid black;
-   
+    
     
 }
 .titulo{
@@ -179,7 +184,8 @@ body{ background-color: black;
     font-size: 1em;
     display: flex;
     justify-content: center;
-    margin-top: -2.5em;
+    margin-top: -2em;
+
     
 }
 .descripción{
@@ -187,12 +193,13 @@ body{ background-color: black;
     font-size: 1em;
     display: flex;
     justify-content: center;
+   
 
 }
 .box-titule{
     display: flex;
-    gap: 6em;
-    justify-content: center;
+    gap: 4em;
+    margin-left: 10em;
     margin-top: 5em;
     font-size: 1em;
     font-family: letra2;
