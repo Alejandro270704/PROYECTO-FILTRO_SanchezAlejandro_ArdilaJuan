@@ -18,41 +18,55 @@
 
     
 }
-.añadir{
+.añadir a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.actualizar{
+.actualizar a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
     
 }
-.borrar{
+.borrar a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.inicio{
+.inicio a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.report{
+.report a {
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.ayuda{
+.ayuda a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.cerrar {
+.cerrar a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .right {
     display: flex;

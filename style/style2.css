@@ -135,15 +135,19 @@ body{ background-color: black;
     color: black;
     
 }
-.borrar{
+.borrar a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.inicio{
+.inicio  a{
     display: flex;
     align-items: center;
-    cursor: pointer;
+    cursor: pointer; 
+    text-decoration: none;
+    color: black;
 }
 .report a{
     display: flex;
@@ -152,15 +156,19 @@ body{ background-color: black;
     text-decoration: none;
     color: black;
 }
-.ayuda{
+.ayuda a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.cerrar {
+.cerrar a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .right {
     display: flex;

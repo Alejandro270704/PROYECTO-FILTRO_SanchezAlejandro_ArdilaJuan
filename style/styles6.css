@@ -19,41 +19,55 @@
 
     
 }
-.añ{
+.añ a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.ac{
+.ac a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
     
 }
-.bo{
+.bo a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.in{
+.in a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.re{
+.re a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.ay{
+.ay a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.cer {
+.cer a{
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .right {
     display: flex;
