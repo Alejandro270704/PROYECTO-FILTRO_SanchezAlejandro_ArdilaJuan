@@ -82,21 +82,43 @@
     display: flex;
     width: 100%;
     border-top: 2px solid black;
+   
+    
 }
-.x a{
+.titulo{
+    font-family: letra1;
+    font-size: 1em;
     display: flex;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 30px;
-    padding: 5px;
-    border: 2px solid black;
-    width: 1vw;
-    height: 2vh;
-    border-radius: 50em;
-    align-items: center;
     justify-content: center;
-    position: relative;
-    right: -35vw;
-    top: 10vh;
+    margin-top: -1em;
+
+    
+}
+
+.box-titule{
+    display: flex;
+    gap: 4em;
+    margin-left: 10em;
+    margin-top: 3em;
+    font-size: 1em;
+    font-family: letra2;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    grid-template-rows: repeat(6,1fr);
+    padding: 0 10em;
+    
+}
+.contenedor div{
+   display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100%;
+    height: 60%;
+    border-radius: 2em ;
+    padding: 0 0.5em;
+    
+    
+  
 }
