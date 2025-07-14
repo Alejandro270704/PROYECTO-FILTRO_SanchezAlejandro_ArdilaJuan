@@ -1,0 +1,48 @@
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+    }
+body{ background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+   
+    animation-delay: 2s;
+
+}
+.bienvenida{
+    border-radius: 4em;
+    background-color: white;
+    width: 55%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: aparecer 3s forwards;
+    font-family: letra1;
+}
+#pedro{
+    width: 20%;
+}
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+   
+    50%{
+        opacity: 1;
+    }
+    100%{opacity: 1;}
+}
