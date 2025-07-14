@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+    }
+.cabeza img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.cabeza{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    font-family: letra2;
+
+    
+}
+.añ a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.ac a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}
+.bo a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.in a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.re a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.ay a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.cer a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -3rem;
+    gap: 1rem;
+}
+#rueda,#noti,#pp{
+    cursor: pointer;
+}
+.linea{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;
+}
+.titulo{
+    font-family: letra1;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+    
+}
+.titulo1{
+    font-family: letra1;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+    font-size: 0.9em;
+    
+}
+.linea{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;  
+}
+.content{
+    font-family: letra2;
+    font-size: 1.5em;
+}
+
+.textooo {
+    margin: 2em;
+    text-align: left;
+}
