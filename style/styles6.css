@@ -127,3 +127,20 @@
     justify-content: center;
 
 }
+.x a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 1vw;
+    height: 2vh;
+    border-radius: 50em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -35vw;
+    top: 10vh;
+}
