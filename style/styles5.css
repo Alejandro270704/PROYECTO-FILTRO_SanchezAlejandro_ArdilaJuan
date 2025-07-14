@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+    }
+.cabeza img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.cabeza{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    font-family: letra2;
+
+    
+}
+.añ{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ac{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.bo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.in{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.re{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ay{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -3rem;
+    gap: 1rem;
+}
+#rueda,#noti,#pp{
+    cursor: pointer;
+}
+.linea{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;
+}
+.linea{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;  
+}
