@@ -206,8 +206,9 @@ body{ background-color: black;
 }
 .box-titule{
     display: flex;
-    gap: 4em;
-    margin-left: 10em;
+    
+    justify-content: space-between;
+    padding: 0 10em;
     margin-top: 5em;
     font-size: 1em;
     font-family: letra2;
