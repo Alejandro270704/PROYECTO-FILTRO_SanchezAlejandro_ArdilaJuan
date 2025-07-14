@@ -159,3 +159,77 @@ input{
     font-size: 1em;
 
 }
+@media only screen and (max-width: 600px) {
+    
+    body{
+        background-size: cover;
+        
+    }
+    .logo{
+        display: flex;
+        left: 35%;
+
+    }
+    .box-login{
+        width: 90%;
+        height: auto;
+        left: 5%;
+        border-radius: 1em;
+        border-radius: 3em;
+
+    }
+    .box-login img{
+        width: 8vh;
+    }
+    #titulo{
+        font-size: 1em;
+        margin-top: 1em;
+       font-family: letra2;
+    }
+    #text1{
+        margin-top: -1.5%;
+        font-family: letra1;
+        font-size: 0.8em;
+    }
+    #usuario{
+        font-size: 1.2em;
+        align-self: flex-start;
+        margin-left: 10%;
+        font-family: letra1;
+        margin-top: 2%;
+        
+    }
+    .box1{
+        align-self: flex-start;
+        margin-left: 10%;
+        margin-top: -4%;
+        width: 28vw;
+    }
+    #contra{
+        font-size: 1.2em;
+        align-self: flex-start;
+        margin-left: 10%;
+        font-family: letra1;
+        margin-top: 2%;
+       
+    }
+    .box2{
+        align-self: flex-start;
+        margin-left: 10%;
+        margin-top: -4%;
+        width: 28vw;
+        
+    }
+    .box3{
+        width: 52%;
+        height: 12%;
+        font-size: 1em;
+        padding: 0.5em;
+    }
+    #text2{
+        font-size: 0.9em;
+        font-family: letra1;
+    }
+
+
+}
