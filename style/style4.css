@@ -15,7 +15,7 @@
     justify-content: center;
     gap: 6rem;
     font-family: letra2;
-    align-items: center;
+
     
 }
 .añadir a{
@@ -97,8 +97,8 @@
 
 .box-titule{
     display: flex;
-    justify-content: space-between;
-    padding: 0 10em;
+    gap: 4em;
+    margin-left: 10em;
     margin-top: 3em;
     font-size: 1em;
     font-family: letra2;
@@ -120,5 +120,50 @@
     padding: 0 0.5em;
     
     
-  
+
+}
+.equis{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: -32%;
+    justify-content: center;
+}
+.equis1{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: 3.5%;
+    justify-content: center;
+}
+.equis2{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: 3.6%;
+    justify-content: center;
+}.equis3{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: 3.3%;;
+    justify-content: center;
+}.equis4{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: 3.6%;
+    justify-content: center;
+}.equis5{
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 92%;
+    margin-top: 3.5%;
+    justify-content: center;
 }
