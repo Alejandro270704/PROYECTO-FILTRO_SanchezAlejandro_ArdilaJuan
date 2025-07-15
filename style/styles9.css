@@ -1,0 +1,61 @@
+/*BOXS*/
+@font-face {
+    font-family: letra1;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+.box {
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    max-width: 20vw;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-height: 80vh;    background: white;
+    border: 0.15vw solid black;
+    padding: 1vh 3vw;
+    display: flex;
+}
+.box p {
+    margin-top: -2vw;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.conf  {
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    border-radius: 2vw;
+    padding: 1vw 2.5vw;
+    background: #e53935;
+    color: white;
+}
+.conf:hover {
+    background: #b71c1c;
+}
+
+.cancel {
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 1vw 2.5vw;
+    background: #43a047;
+    border-radius: 2vw;
+    font-size: 1.em;
+}
+.cancel:hover {
+    background: #1b5e20;
+}
+
