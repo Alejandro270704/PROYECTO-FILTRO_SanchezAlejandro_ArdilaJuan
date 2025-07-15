@@ -173,7 +173,7 @@ body{ background-color: black;
 }
 .right {
     display: flex;
-    position: absolute;
+    justify-content: flex-end;
     right: 1em;
     align-items: center;
     margin-top: -3rem;
@@ -182,9 +182,7 @@ body{ background-color: black;
 #rueda,#noti,#pp{
     cursor: pointer;
 }
-#pp {
-    width: 35%;
-}
+
 .linea{
     display: flex;
     width: 100%;
