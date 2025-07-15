@@ -35,7 +35,7 @@ body{ background-color: black;
     border-radius: 4em;
     background-color: white;
     width: 55%;
-    height: 60%;
+    height: auto;
     position: absolute;
     top: 20%;
     left: 23%;
@@ -173,13 +173,17 @@ body{ background-color: black;
 }
 .right {
     display: flex;
-    justify-content: end;
+    position: absolute;
+    right: 1em;
     align-items: center;
     margin-top: -3rem;
     gap: 1rem;
 }
 #rueda,#noti,#pp{
     cursor: pointer;
+}
+#pp {
+    width: 35%;
 }
 .linea{
     display: flex;
