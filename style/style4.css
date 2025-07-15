@@ -102,6 +102,7 @@
     margin-top: 3em;
     font-size: 1em;
     font-family: letra2;
+    
 }
 .contenedor{
     display: grid;
@@ -127,7 +128,9 @@
     display: flex;
     flex-direction: column;
     width: 2%;
-    margin-top: -30em;
-    margin-left: 100em;
+    position: relative;
+    margin-top: -28%;
+    margin-left: auto;
+    padding-right: 3em;
     gap: 3em;
 }

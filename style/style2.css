@@ -298,11 +298,25 @@ body{ background-color: black;
     .contenido{
         display: none;
     }
-    .contenido1{
+    .contenido-2{
         display: grid;
         grid-template-columns: repeat(2,2fr);
-        grid-template-rows: repeat(9,2fr);
+        grid-template-rows: repeat(1,2fr);
         padding: 2em;
+        border: 2px solid black;
+        width: 80vw;
+        border-bottom:2px solid black;
+        margin-top: 1em;
+        
+       
+    }
+    .box-titule-1{
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+       
+
+        
     }
 
 
