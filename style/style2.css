@@ -240,6 +240,9 @@ body{ background-color: black;
     
 
 }
+.contenido1{
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     body{
         background-size: cover;
@@ -290,7 +293,15 @@ body{ background-color: black;
     .descripción{
         text-align: center;
     }
-    
+    .contenido{
+        display: none;
+    }
+    .contenido1{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        grid-template-rows: repeat(9,2fr);
+        padding: 2em;
+    }
 
 
 
